@@ -6,7 +6,7 @@ body {
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
+/* a {
   color: inherit;
   text-decoration: none;
 }
@@ -35,4 +35,63 @@ ul {
 button {
   padding: 0.5rem 1rem;
   font-weight: bold;
+} */
+
+.nav {
+  background-color: #FFFFFF;
+  height: 75px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.nav img {
+  height: 100%;
+  margin-left: 15px;
+  
+}
+
+.status {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.video-content {
+  margin-top: 20px;
+  text-align: center;
+}
+
+video {
+  height: 400px;
+  width: 700px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+}
+
+.button-section {
+  margin: auto;
+  height: 50px;
+  width: 500px;
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: space-evenly;
+  /* background-color: aqua; */
+}
+
+button {
+  height: 40px;
+  width: 130px;
+  border-style: none;
+  background-color: #7149C6;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #576CBC;
 }
