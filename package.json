@@ -6,7 +6,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@material-ui/core": "^4.12.4",
     "cloudinary": "^1.36.4",
     "dotenv": "^16.0.3",
     "next": "latest",
